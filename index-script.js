@@ -41,3 +41,6 @@ if( a < b){
 
 /* */
 
+function f(){
+  alert("Exemplo de função");
+}
