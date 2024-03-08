@@ -3,149 +3,128 @@
     padding: 0px;
 }
 
-/*Classes*/
-
-.navbar{
-    background-color: #bfe18f;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    font-size: medium;
-    height: 15px;
-    padding-left: 10px;
-    justify-content: space-between;
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
     padding: 10px;
-    text-align: left;
+    margin-bottom: 20px;
+    width: 60hv;
 }
 
-.navbar2{
-    background-color: #bfe18f;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    font-size: medium;
-    height: 30px;
-    padding-left: 10px;
-    justify-content: space-between;
-    padding: 10px;
-    padding-bottom: 10px;
-    text-align: right;
+li{
+    margin: 5px;
 }
-
-/*Seletores*/
 
 a:link{
     color: black;
-    font-size: 20px;
     text-decoration: none;
 }
 
 a:visited{
-    color: black ;
-    font-size: 20px;
+    color: black;
     text-decoration: none;
 }
 
 a:hover{
-    color: #082048;
+    color: white;
     text-decoration: none;
 }
 
-body{
-
-    background-color:#eff7e4;
-    position: fixed;
-}
-
-hr{
-    border: 0px;
+h1{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 50px;
+    width: 80hv;
 }
 
 h2{
     align-items: center;
     text-align: center;
-    font-size: 65px;
-    color:#082048;
-    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 80hv; 
+
+    
 }
 
-h3{
-    font-size: 30px;
-    color: #082048;
-    align-items: center;
+
+
+/*IDS*/
+#navbar{
+    margin: 25px;
+    padding: 30px;
     text-align: center;
+    align-items: center;
+    border: 1px solid rgb(255, 0, 179);
+    background-color: #549B68;
+    height: 5vh;
+
 }
 
-h4{
-    font-size: 30px;
-    font-size: 30px;
-    color: #082048;
-    align-items: center;
-    text-align: center;
-}
-
-/*ids*/
-
-#section1{
-    width: 33.3vh;
-    align-items: center;
-    text-align: center;
+#bodyid{
+    border: 1px solid rgb(18, 52, 85);
+    height: 90hv;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-between;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    float: left;
-    display: flex;
 }
 
-#section2{
-    width: 33.3vh;
-    color: #082048;
-    padding-top: 15px;
+#sectionid{
+    border: 1px solid green;  
+    height: 150hv;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#rodape{
+    border: 1px solid green;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 80hv;
+}
+
+#spamSafe{
+    color: #32F068;
+
+}
+
+#spamNanças{
+    color:#549B68;
+}
+
+#spamTm{
+    font-size: 70%;
+}
+
+#articleid{
+    padding: 10px;
+    margin: 10px;
     align-items: center;
     text-align: justify;
-    width: 50%;
-    font-size: 23px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    float: left;
-    display: flex;
-    padding-bottom: 20px;
+
 }
-#section3{
-    width: 33.3vh;
-    align-items: center;
+
+#ulmain{
+    font-size: 80%;
+    margin: 10px;
+}
+
+#pmain{
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    float: left;
-    display: flex;
-    flex-direction: column;
 }
 
-#spanspace{
-    color: #bfe18f;
+#limain{
+    font-size: 100%;
 }
 
-#div-main{
-    display: flex;
-    flex-direction: row;
-    background: #bfe18f;
-    align-items: center;
-    text-align:center;
-    justify-content: center;
-    padding-left: 10px;
-    padding-top: 20px;
-    border-radius: 12px;
-}
 
-#imgtitulo{
-    width: 70px;
 
-}
-
-#imgsec{
-    padding-top: 15px;
-    width: 40%;
-}
-
-#a-clique{
-    font-size: 30px;
-    padding-left: 800px;
-    align-items: center;
-    text-align:center;
-}
 
 /* Links auxiliares
 

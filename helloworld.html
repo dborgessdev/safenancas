@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de HTML Semântico</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        h1{
+            padding-top: 30px;
+            text-align: center;
+            padding-right: 20px;
+            width: 100hv;
+        }
+
+        #bodyid{
+            background-color: rgb(174, 236, 103);
+            color: black;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        ul{
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            align-items: center;
+            padding: 16px;
+            padding-top: 80px;
+            width: 80hv;
+        }
+        
+        section{
+            padding: 50px;
+            margin: 80px;
+            justify-content: space-between;
+            text-align: justify;
+        }
+
+        article{
+            margin: 15px;
+            padding: 10px;
+        }
+        
+        a:link{
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: white;
+            text-decoration: none;
+        }
+
+
+        a:visited{
+            color: white;
+            text-decoration: none;
+        }
+
+        footer{
+            text-align: center;
+            margin: 15px;
+            padding: 10px;
+        }      
+    </style>
+</head>
+<body id="bodyid">
+    <header class="header-container">
+        <h1>Caipirinha</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="article-container">
+        <article>
+            <h2>Ingredientes</h2>
+            <p>1 Limão grande, 2 colheres de açúcar, gelo a gosto e cachaça.</p>
+        </article>
+        <article>
+            <h2>Preparo</h2>
+            <p>1
+                Pegue o limão coloque-o na horizontal e retire as duas pontas, vire-o na vertical e corte-o ao meio, retire os meio (parte branca) do limão e fatie.
+
+                2
+                Coloque o limão fatiado e duas colheres bem cheias de açúcar dentro de um copo próprio para a bebida e com um socador esprema até que saia todo o suco do limão.
+                
+                3
+                Coloque pedras de gelo até quase encher o copo (aproximadamente 12 pedras pequenas de gelo) e encha o copo com a cachaça.
+                
+                4
+                Mexa bem com uma colher ou coloque em uma coqueteleira e sirva-se!</p>
+        </article>
+    </section>
+
+    <footer>
+        <img width="280hv" src="https://s2-vogue.glbimg.com/WczBQBSU3GC7vbMQvM2DiT8Sitw=/0x0:1500x1875/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_5dfbcf92c1a84b20a5da5024d398ff2f/internal_photos/bs/2022/s/e/pA6e55SWWUK4ixidaLpw/gettyimages-1246697541.gif">
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+    <script>
+        var b = window.document.getElementById('bodyid')
+        var agora = new Date()
+        var hora = agora.getHours()
+        
+        b.addEventListener('mouseenter', escurecer)
+        function escurecer() {
+            if (hora >= 18 || hora < 5) {
+                b.style.background = "darkgreen";
+                b.style.color="white"
+            } 
+    }
+    </script>
+</body>
