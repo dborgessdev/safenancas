@@ -1,135 +1,130 @@
 *{
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
 }
+/*~~/ Seletores /~~*/
 
-ul{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
+header{
     align-items: center;
-    padding: 10px;
-    margin-bottom: 20px;
-    width: 60hv;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
 }
 
-li{
-    margin: 5px;
+body{
+    height: 900px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: auto;
+    padding: 5px;
+    background: linear-gradient(180deg, #08508F, #08E1DB,#09E15E)
 }
 
 a:link{
-    color: black;
-    text-decoration: none;
-}
-
-a:visited{
-    color: black;
-    text-decoration: none;
-}
-
-a:hover{
     color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #09E15E;
     text-decoration: none;
 }
 
 h1{
     align-items: center;
     text-align: center;
-    padding-bottom: 10px;
-    font-size: 50px;
-    width: 80hv;
 }
 
-h2{
+main{
+    min-width: 320px;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 12px;
+    display: flex;
+    padding-top: 10px;
+}
+
+
+footer {
+    display: flex;
+    background-color: #171717;
     align-items: center;
     text-align: center;
-    padding-bottom: 30px;
-    width: 80hv; 
-
-    
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    margin: auto;
 }
 
-
-
-/*IDS*/
-#navbar{
-    margin: 25px;
-    padding: 30px;
+/*~~/ Classes /~~*/
+.h3spanmain{
+    width: 90%;
+    height: 80%;
     text-align: center;
-    align-items: center;
-    border: 1px solid rgb(255, 0, 179);
-    background-color: #549B68;
-    height: 5vh;
-
 }
 
-#bodyid{
-    border: 1px solid rgb(18, 52, 85);
-    height: 90hv;
-    padding-left: 80px;
-    padding-right: 80px;
-    justify-content: space-between;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#sectionid{
-    border: 1px solid green;  
-    height: 150hv;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-#rodape{
-    border: 1px solid green;
-    height: 100px;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 10px;
-    width: 80hv;
-}
-
-#spamSafe{
-    color: #32F068;
-
-}
-
-#spamNanças{
-    color:#549B68;
-}
-
-#spamTm{
-    font-size: 70%;
-}
-
-#articleid{
-    padding: 10px;
-    margin: 10px;
-    align-items: center;
+.spanmain{
+    width: 100%;
     text-align: justify;
-
+    margin: 5px;
 }
-
-#ulmain{
-    font-size: 80%;
+.pspanmain{
+    padding: 5px;
     margin: 10px;
+    width: 80%;
+    height: 90%;
 }
 
-#pmain{
+/*~~/ IDS /~~*/
+
+
+
+#h1Safe{
+    width: 100%;
     text-align: center;
+    align-items: center;
+    font-size: 5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-#limain{
-    font-size: 100%;
+#spanSafe:hover{
+    color: #09E15E;
+}
+
+#navbar{
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin: auto;
+
+}
+
+#ulnav{
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    color: white;
+    border-radius: 12px;
+    background-color: #171717;
+    height: 60px;
+}   
+
+#linav{
+    list-style: none;
+    font-weight: bolder;
 }
 
 
-
-
-/* Links auxiliares
-
-https://paletadecores.com/paleta/76cf2a/91db44/abe75f/c6f379/e0ff93/
-
-https://icons8.com.br/icon/set/finan%C3%A7as/fluency
-
-*/
+/*vars*/
+:root {
+    --color-neutral-0:#0c0e0c;
+    --color-neutral-10:#171717;
+    --color-neutral-30:#a8a29e;
+    --color-neutral-40:#f5f5f5;
+}
